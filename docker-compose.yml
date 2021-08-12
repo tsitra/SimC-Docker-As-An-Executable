@@ -1,0 +1,38 @@
+version: "3.9"
+services:
+  simc-lowskill:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    command: ["/app/SimulationCraft/simc", "./lowskill.simc"]
+    volumes:
+      - type: bind
+        source: ./volume
+        target: /app/SimulationCraft/results
+  simc-medskill:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    command: ["/app/SimulationCraft/simc", "./medskill.simc"]
+    volumes:
+      - type: bind
+        source: ./volume
+        target: /app/SimulationCraft/results
+  simc-hiskill:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    command: ["/app/SimulationCraft/simc", "./hiskill.simc"]
+    volumes:
+      - type: bind
+        source: ./volume
+        target: /app/SimulationCraft/results
+  simc-perfectskill:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    command: ["/app/SimulationCraft/simc", "./perfectskill.simc"]
+    volumes:
+      - type: bind
+        source: ./volume
+        target: /app/SimulationCraft/results

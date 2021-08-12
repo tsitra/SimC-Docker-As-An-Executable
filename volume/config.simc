@@ -1,0 +1,6 @@
+html=results/report.html
+fight_style=CastingPatchwerk
+
+threads=7
+
+iterations=100

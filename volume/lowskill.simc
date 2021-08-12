@@ -1,0 +1,9 @@
+input=./character.simc
+
+input=./config.simc
+
+default_skill=.6
+skill=.6
+html=results/lowskill_report.html
+log=1
+output=results/lowskill_log.txt
