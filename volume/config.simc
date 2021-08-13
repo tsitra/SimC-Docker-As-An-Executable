@@ -1,6 +1,4 @@
 html=results/report.html
-fight_style=CastingPatchwerk
-
+fight_style=DungeonSlice
 threads=7
-
-iterations=100
+iterations=100000

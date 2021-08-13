@@ -1,9 +1,0 @@
-input=./character.simc
-
-input=./config.simc
-
-default_skill=.8
-skill=.8
-html=results/medskill_report.html
-log=1
-output=results/medskill_log.txt

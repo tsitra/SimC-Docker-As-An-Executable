@@ -1,9 +1,0 @@
-input=./character.simc
-
-input=./config.simc
-
-default_skill=1
-skill=1
-html=results/perfectskill_report.html
-log=1
-output=results/perfectskill_log.txt

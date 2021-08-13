@@ -1,0 +1,6 @@
+input=./character.simc
+
+input=./config.simc
+
+html=results/report.html
+output=results/log.txt

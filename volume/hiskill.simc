@@ -1,9 +1,0 @@
-input=./character.simc
-
-input=./config.simc
-
-default_skill=.9
-skill=.9
-html=results/hiskill_report.html
-log=1
-output=results/hiskill_log.txt
