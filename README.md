@@ -9,3 +9,8 @@ Using Docker to generate reports from SimulationCraft
 5) Run [newReport.bat](./newReport.bat) from the command prompt from this directory.
 6) Let the containers finish.
 7) Read the results inside the [results](./volume/results/) folder.
+
+## Adding new routes
+1) https://wago.io/Yya4XBbl-
+2) ???
+3) profit
